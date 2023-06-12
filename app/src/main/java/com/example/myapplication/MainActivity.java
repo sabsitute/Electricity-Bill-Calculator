@@ -86,13 +86,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
 
-            case R.id.settings:
-                Toast.makeText(this, "This is settings",Toast.LENGTH_LONG).show();
+            case R.id.calculator:
+                //Toast.makeText(this, "This is settings",Toast.LENGTH_LONG).show();
+                intent = new Intent(this, CalculateActivity.class);
+                startActivity(intent);
                 break;
 
-            case R.id.search:
-                Toast.makeText(this, "This is search",Toast.LENGTH_LONG).show();
-                break;
 
         }
 
