@@ -17,6 +17,7 @@ public class CalculateActivity extends AppCompatActivity {
 
     private EditText unitEditText;
     private TextView resultTextView;
+    private TextView rebateTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +82,9 @@ public class CalculateActivity extends AppCompatActivity {
         double rebateAmount = (rebatePercentage / 100.0) * bill;
         double finalBill = bill - rebateAmount;
 
-        String result = "Bill: RM " + String.format("%.2f", finalBill);
+        String result = "Bill: RM " + String.format("%.2f", finalBill)
+
+                + "                         The rebate is: " + rebatePercentage + "%";
         resultTextView.setText(result);
     }
 
