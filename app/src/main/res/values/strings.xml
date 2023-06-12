@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Electricity Bill Calculator</string>
+    <string name="copyright">Copyright &#169; 2023 Nur Sabrina</string>
+    <string name="fullname">NUR SABRINA BINTI AZRAN</string>
+    <string name="studentnum">2022972727</string>
+    <string name="programmecode">CS251</string>
+    <string name="group">CS2515A</string>
+    <string name="etName">Kilowatt-hour (kWh)</string>
+    <string name="btnCal">CALCULATE</string>
+    <string name="btnClear">CLEAR</string>
+
+</resources>
