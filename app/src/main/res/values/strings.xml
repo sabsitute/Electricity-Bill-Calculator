@@ -5,6 +5,11 @@
     <string name="studentnum">2022972727</string>
     <string name="programmecode">CS251</string>
     <string name="group">CS2515A</string>
+    <string name="hyperlink">
+    <a href="https://github.com/sabsitute/Electricity-Bill-Calculator">Source Code</a>
+
+    </string>
+
     <string name="etName">Kilowatt-hour (kWh)</string>
     <string name="btnCal">CALCULATE</string>
     <string name="btnClear">CLEAR</string>

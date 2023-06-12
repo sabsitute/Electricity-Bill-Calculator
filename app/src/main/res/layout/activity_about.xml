@@ -80,4 +80,13 @@
         android:text="@string/group"
         android:textIsSelectable="false"
         android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-70dp"
+        android:text="@string/hyperlink" />
 </RelativeLayout>
